@@ -11,21 +11,37 @@
 		487B246D1F27E39900969455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487B246C1F27E39900969455 /* Assets.xcassets */; };
 		487B24701F27E39900969455 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487B246E1F27E39900969455 /* MainMenu.xib */; };
 		487B24731F27E39900969455 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 487B24721F27E39900969455 /* main.m */; };
+		48A23D4B1F28ED7E006274F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A23D4A1F28ED7E006274F6 /* AppDelegate.swift */; };
+		48A23D4D1F28ED7E006274F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A23D4C1F28ED7E006274F6 /* Assets.xcassets */; };
+		48A23D501F28ED7E006274F6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A23D4E1F28ED7E006274F6 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		487B24661F27E39900969455 /* ProgressimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		487B24661F27E39900969455 /* ObjC-ProgressimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC-ProgressimationDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		487B24691F27E39900969455 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		487B246A1F27E39900969455 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		487B246C1F27E39900969455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		487B246F1F27E39900969455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		487B24711F27E39900969455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		487B24721F27E39900969455 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		487B24741F27E39900969455 /* ProgressimationDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProgressimationDemo.entitlements; sourceTree = "<group>"; };
+		487B24741F27E39900969455 /* ObjC-ProgressimationDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ObjC-ProgressimationDemo.entitlements"; sourceTree = "<group>"; };
+		48A23D481F28ED7E006274F6 /* Swift-ProgressimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-ProgressimationDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A23D4A1F28ED7E006274F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48A23D4C1F28ED7E006274F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48A23D4F1F28ED7E006274F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		48A23D511F28ED7E006274F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A23D521F28ED7E006274F6 /* Swift_ProgressimationDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swift_ProgressimationDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		487B24631F27E39900969455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A23D451F28ED7E006274F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +54,8 @@
 		487B245D1F27E39900969455 = {
 			isa = PBXGroup;
 			children = (
-				487B24681F27E39900969455 /* ProgressimationDemo */,
+				487B24681F27E39900969455 /* ObjC-ProgressimationDemo */,
+				48A23D491F28ED7E006274F6 /* Swift-ProgressimationDemo */,
 				487B24671F27E39900969455 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +63,13 @@
 		487B24671F27E39900969455 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				487B24661F27E39900969455 /* ProgressimationDemo.app */,
+				487B24661F27E39900969455 /* ObjC-ProgressimationDemo.app */,
+				48A23D481F28ED7E006274F6 /* Swift-ProgressimationDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		487B24681F27E39900969455 /* ProgressimationDemo */ = {
+		487B24681F27E39900969455 /* ObjC-ProgressimationDemo */ = {
 			isa = PBXGroup;
 			children = (
 				487B24691F27E39900969455 /* AppDelegate.h */,
@@ -60,17 +78,29 @@
 				487B246E1F27E39900969455 /* MainMenu.xib */,
 				487B24711F27E39900969455 /* Info.plist */,
 				487B24721F27E39900969455 /* main.m */,
-				487B24741F27E39900969455 /* ProgressimationDemo.entitlements */,
+				487B24741F27E39900969455 /* ObjC-ProgressimationDemo.entitlements */,
 			);
-			path = ProgressimationDemo;
+			path = "ObjC-ProgressimationDemo";
+			sourceTree = "<group>";
+		};
+		48A23D491F28ED7E006274F6 /* Swift-ProgressimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				48A23D4A1F28ED7E006274F6 /* AppDelegate.swift */,
+				48A23D4C1F28ED7E006274F6 /* Assets.xcassets */,
+				48A23D4E1F28ED7E006274F6 /* MainMenu.xib */,
+				48A23D511F28ED7E006274F6 /* Info.plist */,
+				48A23D521F28ED7E006274F6 /* Swift_ProgressimationDemo.entitlements */,
+			);
+			path = "Swift-ProgressimationDemo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		487B24651F27E39900969455 /* ProgressimationDemo */ = {
+		487B24651F27E39900969455 /* ObjC-ProgressimationDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 487B24771F27E39900969455 /* Build configuration list for PBXNativeTarget "ProgressimationDemo" */;
+			buildConfigurationList = 487B24771F27E39900969455 /* Build configuration list for PBXNativeTarget "ObjC-ProgressimationDemo" */;
 			buildPhases = (
 				487B24621F27E39900969455 /* Sources */,
 				487B24631F27E39900969455 /* Frameworks */,
@@ -80,9 +110,26 @@
 			);
 			dependencies = (
 			);
-			name = ProgressimationDemo;
+			name = "ObjC-ProgressimationDemo";
 			productName = ProgressimationDemo;
-			productReference = 487B24661F27E39900969455 /* ProgressimationDemo.app */;
+			productReference = 487B24661F27E39900969455 /* ObjC-ProgressimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48A23D471F28ED7E006274F6 /* Swift-ProgressimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A23D551F28ED7E006274F6 /* Build configuration list for PBXNativeTarget "Swift-ProgressimationDemo" */;
+			buildPhases = (
+				48A23D441F28ED7E006274F6 /* Sources */,
+				48A23D451F28ED7E006274F6 /* Frameworks */,
+				48A23D461F28ED7E006274F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-ProgressimationDemo";
+			productName = "Swift-ProgressimationDemo";
+			productReference = 48A23D481F28ED7E006274F6 /* Swift-ProgressimationDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,10 +138,14 @@
 		487B245E1F27E39900969455 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Jerry;
 				TargetAttributes = {
 					487B24651F27E39900969455 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					48A23D471F28ED7E006274F6 = {
 						CreatedOnToolsVersion = 9.0;
 					};
 				};
@@ -112,7 +163,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				487B24651F27E39900969455 /* ProgressimationDemo */,
+				487B24651F27E39900969455 /* ObjC-ProgressimationDemo */,
+				48A23D471F28ED7E006274F6 /* Swift-ProgressimationDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +176,15 @@
 			files = (
 				487B246D1F27E39900969455 /* Assets.xcassets in Resources */,
 				487B24701F27E39900969455 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A23D461F28ED7E006274F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A23D4D1F28ED7E006274F6 /* Assets.xcassets in Resources */,
+				48A23D501F28ED7E006274F6 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +200,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		48A23D441F28ED7E006274F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A23D4B1F28ED7E006274F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -146,6 +215,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				487B246F1F27E39900969455 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		48A23D4E1F28ED7E006274F6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A23D4F1F28ED7E006274F6 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -260,10 +337,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ProgressimationDemo/ProgressimationDemo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "ObjC-ProgressimationDemo/ObjC-ProgressimationDemo.entitlements";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4MAMECY9VS;
-				INFOPLIST_FILE = ProgressimationDemo/Info.plist;
+				INFOPLIST_FILE = "ObjC-ProgressimationDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sheepsystems.ProgressimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,13 +351,46 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ProgressimationDemo/ProgressimationDemo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "ObjC-ProgressimationDemo/ObjC-ProgressimationDemo.entitlements";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4MAMECY9VS;
-				INFOPLIST_FILE = ProgressimationDemo/Info.plist;
+				INFOPLIST_FILE = "ObjC-ProgressimationDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sheepsystems.ProgressimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48A23D531F28ED7E006274F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Swift-ProgressimationDemo/Swift_ProgressimationDemo.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4MAMECY9VS;
+				INFOPLIST_FILE = "Swift-ProgressimationDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sheepsystems.Swift-ProgressimationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		48A23D541F28ED7E006274F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Swift-ProgressimationDemo/Swift_ProgressimationDemo.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4MAMECY9VS;
+				INFOPLIST_FILE = "Swift-ProgressimationDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sheepsystems.Swift-ProgressimationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -296,13 +406,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		487B24771F27E39900969455 /* Build configuration list for PBXNativeTarget "ProgressimationDemo" */ = {
+		487B24771F27E39900969455 /* Build configuration list for PBXNativeTarget "ObjC-ProgressimationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				487B24781F27E39900969455 /* Debug */,
 				487B24791F27E39900969455 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A23D551F28ED7E006274F6 /* Build configuration list for PBXNativeTarget "Swift-ProgressimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A23D531F28ED7E006274F6 /* Debug */,
+				48A23D541F28ED7E006274F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
