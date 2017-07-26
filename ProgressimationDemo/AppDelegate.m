@@ -1,28 +1,20 @@
-//
-//  AppDelegate.m
-//  ProgressimationDemo
-//
-//  Created by Jerry on 17/07/25.
-//  Copyright © 2017 Jerry. All rights reserved.
-//
-
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSProgressIndicator *progressIndicator;
+
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    /* The following line does not affect the issue.  You can comment
+     it out or not.  */
+    //self.progressIndicator.usesThreadedAnimation = YES;
+
+    [self.progressIndicator startAnimation:self];
 }
-
-
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
-}
-
 
 @end
